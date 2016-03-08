@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(25, 181, 254);
+}
+a{
+  text-decoration: none;
+  color: white;
+/*border: black dotted 2px; */
+  padding: 10px;
+}
+
+a:hover{
+  background-color: rgb(154, 18, 179);
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 10px;
+/*   border: black dotted 2px;*/
+}
+
+h1{
+  color: rgb(135, 211, 124);
+}
+
+/* color codes found at: http://www.flatuicolorpicker.com/ */
