@@ -1,4 +1,4 @@
-# git-workflow-demo
+# computer science directory
 
 A repository to demonstrate how github can be used to collaborate via pull requests.
 
