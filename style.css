@@ -1,29 +1,40 @@
-body{
-  background-color: rgb(25, 181, 254);
-}
 a{
   text-decoration: none;
-  color: white;
-/*border: black dotted 2px; */
-  padding: 10px;
 }
 
-a:hover{
-  background-color: rgb(154, 18, 179);
-  color: white;
+
+
+
+
+/* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
 }
 
-ul{
-  list-style-type: none;
+ul li{
+  text-decoration: none;
+  display: inline-block;
 }
 
-li{
-  margin: 10px;
-/*   border: black dotted 2px;*/
+a{
+  text-decoration: none;
 }
 
-h1{
-  color: rgb(135, 211, 124);
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-/* color codes found at: http://www.flatuicolorpicker.com/ */
+.dropdown:hover {
+  display: inline-block;
+  background-color: green;
+}
+
+.dropdown-content:hover{
+  display:inline-block;
+  
+} */

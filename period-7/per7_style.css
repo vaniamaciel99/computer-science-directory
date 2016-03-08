@@ -1,0 +1,26 @@
+body{
+  background-color: #3FC380;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+/*border: black dotted 2px; */
+  padding: 10px;
+}
+
+a:hover{
+  background-color: #F9BF3B;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 10px;
+/*   border: black dotted 2px;*/
+}
+
+/* color codes found at: http://www.flatuicolorpicker.com/ */
