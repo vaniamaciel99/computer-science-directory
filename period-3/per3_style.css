@@ -1,5 +1,11 @@
 body{
-  background-color: rgb(25, 181, 254);
+  background: #6BB9F0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#6BB9F0, #2574A9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#6BB9F0, #2574A9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#6BB9F0, #2574A9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#6BB9F0, #2574A9); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a{
@@ -7,11 +13,12 @@ a{
   color: white;
 /*border: black dotted 2px; */
   padding: 10px;
+  font-size: x-large;
 }
 
 a:hover{
-  background-color: rgb(191, 85, 236);
-  color: white;
+  background-color: #BE90D4;
+  color: black;
 }
 
 ul{

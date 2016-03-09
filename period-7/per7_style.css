@@ -1,17 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+@import url(https://fonts.googleapis.com/css?family=Domine);
 body{
-  background-color: #3FC380;
+  background-color: #3FC380; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#3FC380, #1E824C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3FC380, #1E824C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3FC380, #1E824C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3FC380, #1E824C); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a{
+  font-family: 'Domine';
   text-decoration: none;
   color: white;
 /*border: black dotted 2px; */
   padding: 10px;
+  font-size: x-large;
 }
 
 a:hover{
-  background-color: #F9BF3B;
-  color: white;
+  background-color: #F5D76E;
+  color: black;
 }
 
 ul{
